@@ -7,6 +7,11 @@
     background-size: cover;
 }
 
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
 .dungeon {
     background-image: url(/img/main.gif);
     height: 100vh;
@@ -77,15 +82,15 @@ h2 {
     animation-name: fade-in;
 }
 
-.fade-delay-small {
+.animation-delay-small {
     animation-delay: 0.15s;
 }
 
-.fade-delay-medium {
+.animation-delay-medium {
     animation-delay: 0.3s;
 }
 
-.fade-delay-big {
+.animation-delay-big {
     animation-delay: 0.4s;
 }
 
